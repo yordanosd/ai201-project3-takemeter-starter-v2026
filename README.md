@@ -41,9 +41,13 @@
 
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
+  Community: r/nbadiscussion, a GOAT debate thread
+  ("How many players do you think have a legit GOAT case?").
 
-
-
+  Candidate distinctions from my reading:
+  - Some posts cite a specific stat (e.g. "6 Finals MVPs"); most don't.
+  - Some posts use championship count as the deciding argument; others set rings aside.
+  - Some posts explain a player's impact on how the game is played; others only cite player names.
 ---
 
 ## Label Taxonomy
