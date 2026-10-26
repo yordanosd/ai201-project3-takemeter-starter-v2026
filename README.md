@@ -58,31 +58,49 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `analysis`
 
 **Definition:**
+Argues about a player's GOAT standing (for or against) using at least two distinct, checkable facts as evidence, such as stats, ring counts, awards, records, or published rankings. The facts can cover any part of a career: winning, individual numbers, longevity, or impact on the game.
 
 **Example 1:**
+> The NBA GOAT debate is the age-old question but it's just beating a dead horse at this point. So, I’m saying who do you think has a legit argument to be the GOAT? Here are mine:
 >
+> LeBron- widely regarded as the best passing non-PG ever, 8 straight Finals appearances, 3 rings in 9 appearances, longevity is nearly getting to Kareem’s level.
+>
+> Russell- 11 rings, in my opinion the best defender ever, best winner in sports history.
+>
+> Kareem- Most points ever, 6 rings, 6 MVPs, was all-NBA caliber for almost 20 tears.
+>
+> Jordan- 6/6 Finals, highest PPG ever, 2x more FMVP'S than anybody else, best perimeter defender ever, majority considered the GOAT.
 
 **Example 2:**
->
+> He may not be the goat, but if you’re going to list 5 players who are in the conversation then Tim Duncan should be in it. 5 for 6 in the NBA Finals (Thank Ray Allen) while also being one of the greatest defenders of all time, 15 All Defensive teams out of 19 seasons. People try to downplay his success saying he was part of a great system in SAN Antonio but he was the system. He’s also showed great longevity, playing an important role even in the final years of his career.
 
-### `label_two`
+### `hot_take`
 
 **Definition:**
+Makes a claim about players or the GOAT debate with fewer than two checkable facts as evidence: pure opinion, vague references to stats, or a single fact on its own.
 
 **Example 1:**
->
+>I think the best way to rank guys is to have a Center ranking, and then group all others. Hakeem, Shaq, Duncan. Those guys would go toe 2 toe with MJ or LeBron and it’s impossible to say who would win. So I think you just are forced to separate the bigs.
 
 **Example 2:**
->
+>For me it’s (in no particular order) MJ, Magic, Bird, Kareem, Wilt, Bill, Lebron, Kobe, Duncan. (Maybe Shaq and Hakeem as well)
+>Some have a bigger claim than others of course, but I believe valid arguments can be racist it forth for everyone of the above mentioned
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `analysis` vs. `hot_take`
+
+> Maybe Duncan? Not as dominant as any of them but just as crucial to winning the 5 rings he has also considering he won his rings over a longer span of time shows his sustained greatness.
+>
+> Not a hill I would die on but one that I think should be noticed.
+
+This post makes a real argument (sustained greatness) and cites a checkable fact, so it looks like `analysis`. But "5 rings" is the only fact. "Longer span of time" and "sustained greatness" point at longevity without a number behind them.
 
 **The decision rule I used every time:**
+Count the distinct, checkable facts the post uses as evidence. Two or more is `analysis`; zero or one is `hot_take`, however reasonable the argument sounds. Each separate award, record, or result counts as one fact ("MVP, DPOY, Finals MVP" = 3). A stat line counts as one ("25/10/6 on 50/38/88" = 1). Years that only mark a season or era ("2020 Anthony Davis") don't count, and neither do vague references to stats ("the efficiency numbers are a knock"). Count whether a fact is stated, not whether it's correct. This post has one fact, so it's `hot_take`.
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
 
