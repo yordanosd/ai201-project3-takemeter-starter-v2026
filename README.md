@@ -113,19 +113,17 @@ Count the distinct, checkable facts the post uses as evidence. Two or more is `a
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** Comments from the r/nbadiscussion GOAT debate, mainly the thread "How many players do you think have a legit GOAT argument?" (https://www.reddit.com/r/nbadiscussion/comments/hdu3x6/). Posts are kept whole; Reddit page text (vote counts, "Award", "Share") was removed.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** I labelled 20 posts cold first (marked `cold` in the note column). The rest were pre-labelled with AI: Gemini labelled them first without knowing my definitions, then Claude relabelled every non-cold post using my two-fact rule, which changed 76 of Gemini's labels. Claude also relabelled the 8 cold posts I had marked `reaction` (an earlier third label I dropped) as `hot_take`; those rows say so in the note. Close calls carry a `borderline:` note explaining the decision. To keep `hot_take` under 70%, I removed 25 thread titles that weren't posts and 4 one-line filler replies, and added extra `analysis` posts from the same discussion.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| `analysis` | 55 | 30.1% |
+| `hot_take` | 128 | 69.9% |
+| **Total** | 183 | 100% |
 
 **Three hard cases**
 
@@ -133,25 +131,25 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* "You are spot on that the criteria for greatness has a lot to do with who you choose as the goat. I think if you were given a time machine… it would be any version of Lebron from 2013- present day… e.g 2020 Anthony Davis is a better player than 1962 Bill Russell… By that respect MJ was much better than his peers than players like Lebron and Kareem were over theirs."
 >
-> *Could have been:*
+> *Could have been:* `analysis` or `hot_take`
 >
-> *I chose, because:*
+> *I chose `hot_take`, because:* the post is full of numbers (2013, 2020, 1962) and lays out a careful way to judge greatness, but every number is a year that only says which version of a player is meant. The actual claim, that MJ was further ahead of his peers, has no fact behind it.
 
 **2.**
-> *The post:*
+> *The post:* "So, I'm a Kobe guy and I'm biased. I think in terms of mentality, ability to win, swagger, defense...MJ is GOAT. In terms of pure talent? LBJ… KOBE has an argument for best scorer of all time, but the efficiency numbers are a knock."
 >
-> *Could have been:*
+> *Could have been:* `analysis` or `hot_take`
 >
-> *I chose, because:*
+> *I chose `hot_take`, because:* it sounds informed and refers to "the efficiency numbers," but never states one. Mentioning stats without giving them doesn't count as a fact.
 
 **3.**
-> *The post:*
+> *The post:* "Personally, I extended the definition of "team success" beyond just championships. Duncan has "only" 5 rings, but won over 50 games for almost his entire career… If we look at stats like total career wins & career win percentage, Duncan is pretty tough to beat."
 >
-> *Could have been:*
+> *Could have been:* `analysis` or `hot_take`
 >
-> *I chose, because:*
+> *I chose `analysis`, because:* it has exactly two checkable facts used as evidence (5 rings, 50+ wins almost every season). "Career wins & win percentage" is mentioned without numbers and doesn't count. If the 50-win claim were judged too vague, this would drop to one fact and become `hot_take`, which is why it sits right on my boundary.
 
 ---
 

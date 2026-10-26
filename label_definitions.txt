@@ -5,6 +5,5 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+analysis: Argues about a player's GOAT standing (for or against) using at least two distinct, checkable facts as evidence, such as stats, ring counts, awards, records, or published rankings. The facts can cover any part of a career: winning, individual numbers, longevity, or impact on the game.
+hot_take: Makes a claim about players or the GOAT debate with fewer than two checkable facts as evidence: pure opinion, vague references to stats, or a single fact on its own.
