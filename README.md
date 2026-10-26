@@ -125,6 +125,8 @@ Count the distinct, checkable facts the post uses as evidence. Two or more is `a
 | `hot_take` | 128 | 69.9% |
 | **Total** | 183 | 100% |
 
+**Why 183 instead of 200:** I expected the GOAT threads to have well over 200 posts that made either an opinion-based or a fact-based argument. In practice, many replies were quick reactions, jokes, or one-line questions that didn't really argue anything, so the usable pool was thinner than I planned. I ended up with 183 posts and kept `hot_take` just under the 70% limit (69.9%) by adding extra `analysis` posts and removing filler replies.
+
 **Three hard cases**
 
 <!-- Any post that made you pause: what it was, which two labels it could have
