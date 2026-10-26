@@ -53,61 +53,51 @@ whether you hit them:
 
 ## 1.
 
-<!-- Your criterion. It must name a number. -->
-
-
+Overall accuracy on the held-out test set is at least 0.80 on all three seeds.
 
 **Why this target:**
 
-
+My labels are fact driven: I count the checkable facts in a post, and two or more makes it `analysis`. Posts full of stats or with no facts at all should be easy to tell apart, so most mistakes will be one-fact vs. two-fact posts near my boundary. That makes 0.80 reachable but not 0.90. It's also well above what the model gets by always guessing `hot_take` (under 70%, per criterion 5), and with only about 30 test posts it has to hold on all three seeds, so it's not a safe number.
 
 ---
 
 ## 2.
 
-<!-- Your criterion. -->
-
-
+When I re-label my 20 cold-labelled posts a few days later without looking at my first labels, at least 80% of the posts either round labelled `analysis` get `analysis` both times.
 
 **Why this target:**
 
-
+Counting facts is easier to repeat than judging whether an argument is good, so I should mostly agree with myself. Where I could slip is the counting edge cases: whether "MVP, DPOY, Finals MVP" is one fact or three, whether "the efficiency numbers are a knock" counts, and years like "2020 Anthony Davis" that aren't evidence. I only expect about 6 `analysis` posts in the 20, so one disagreement drops me to about 83% and two drops me below 80%.
 
 ---
 
 ## 3.
 
-<!-- Your criterion. -->
-
-
+Accuracy on the model's most-confident third of test posts is at least 0.85 on all three seeds.
 
 **Why this target:**
 
-
+Hot takes are opinions with no factual reasoning, so the model should be most sure on those, and on `analysis` posts packed with stats. Those clear cases should make up the most-confident third, so it should score higher than my 0.80 overall. The posts it's unsure about should be the one-fact posts near my boundary, like "Maybe Duncan… 5 rings." The third is only about 10 posts, so 0.85 means at most one mistake among the model's most confident calls on every seed.
 
 ---
 
 ## 4.
 
-<!-- Your criterion. -->
-
-
+The `analysis` label has an F1 of at least 0.70 on the held-out test set on all three seeds.
 
 **Why this target:**
 
-
+Reddit is mostly fans posting opinions, so `analysis` will be my smaller label. The model gets fewer examples to learn it from, and there will only be about 9–10 `analysis` posts in the test set, so one miss moves F1 by 5–7 points. It's also the harder label: the model has to notice two facts, and one-fact posts look almost the same. That's why this target is lower than my 0.80 overall accuracy.
 
 ---
 
 ## 5.
 
-<!-- Your criterion. -->
-
-
+`hot_take` makes up less than 70% of the rows in the final `labels.csv`.
 
 **Why this target:**
 
-
+Reddit leans toward opinions from passionate fans and rebuttals, so `hot_take` will naturally be the bigger label. If it goes past 70%, always guessing `hot_take` gets close to my 0.80 accuracy target and criterion 1 stops meaning anything. Keeping it under 70% means I have to look for `analysis` posts on purpose instead of taking whatever the thread gives me.
 
 ---
 
